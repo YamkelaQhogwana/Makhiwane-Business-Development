@@ -1,7 +1,6 @@
 import "./ModalQuotation.css"
 import { useSelector } from "react-redux";
 import axios from "axios";
-import { clearCart } from "../../../Features/Cart/cartSlice";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import Socials from "../../../Components/Socials-Bar/Socials";
