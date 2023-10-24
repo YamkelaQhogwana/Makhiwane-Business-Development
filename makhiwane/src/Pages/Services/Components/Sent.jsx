@@ -18,7 +18,7 @@ const Sent = ({name, surname, companyName, email, country, city, address, postal
   },[updateCounter])
   const  submitData = async()=>{
   try {
-      const emailResponse =  await axios.post('https://makhiwne-backend-e54a9552f057.herokuapp.com/send-email', {
+      const emailResponse =  await axios.post('https://makhiwane-business-development-backend.vercel.app/send-email', {
         recipient_email: userInformation.email,
         userInformation : userInformation,
         cartItems : cartItems,
