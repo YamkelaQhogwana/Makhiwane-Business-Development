@@ -24,7 +24,7 @@ const MissionArticle = () => {
                        Our objective is to provide innovation hubs and a best practices center of excellence</p>
                 </section>
 
-                <button onClick={()=>navigate("./services")}>GET STARTED</button>
+                <button onClick={()=>navigate( "/services#services-hr")}>GET STARTED</button>
             </article>
           </section>
         </article>  
