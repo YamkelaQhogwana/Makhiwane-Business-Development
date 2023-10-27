@@ -7,8 +7,10 @@ import Mission from '../Components/Mission/Mission.jsx'
 import Values from "../Components/Values/Values"
 import MissionArticle from "../Components/Mission-Article/MissionArticle.jsx"
 import FAQs from "../Components/FAQs/FAQs.jsx"
+import { HashRouter, Routes } from 'react-router-dom'
 import ContactUs from "../Components/ContactUs/ContactUs.jsx"
 import { FaSpinner } from 'react-icons/fa'
+
 const isLoading = () =>{
   return (
        <div className="loading" style={{ width : "98%", minHeight : "600px", display : "grid", placeContent : "center"}}>
@@ -19,6 +21,7 @@ const isLoading = () =>{
 const Website = () => {
   return (
     <div className='App'>
+      
       <Suspense fallback={<isLoading></isLoading>}>
         <Hero></Hero>
       </Suspense>
@@ -26,15 +29,20 @@ const Website = () => {
       <Suspense fallback={<isLoading></isLoading>}>
       <Portfolio/>
       </Suspense>
+      <Suspense fallback={<isLoading></isLoading>}>
       <Mission/>
+      </Suspense>
+      <Suspense fallback={<isLoading></isLoading>}>
       <About/>
+      </Suspense>
       <Suspense fallback={<isLoading></isLoading>}>
      <Values></Values>
      </Suspense>
-      <MissionArticle/>
-      <FAQs/>
-      <ContactUs/>
-         
+      <Suspense fallback={<isLoading></isLoading>}>
+     <FAQs></FAQs>
+     </Suspense>
+     
+     
     </div>
   )
 }

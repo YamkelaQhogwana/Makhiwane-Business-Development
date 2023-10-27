@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import Socials from '../Socials-Bar/Socials';
 import MenuMobile from './Menu';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 const Header = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const navigate = useNavigate()
@@ -33,7 +34,7 @@ const Header = () => {
                 <a onClick={()=>navigate("./services")}>SERVICES</a>
             </li>
             <li>
-                <a href='https://makhiwane-business-development.vercel.app/#contact-us'>CONTACT</a>
+                <Link to="/#contact-us"><a href=''>CONTACT</a></Link>
             </li>
             <li>
              <a href='https://makhiwane-business-development.vercel.app/#about'>ABOUT</a>
