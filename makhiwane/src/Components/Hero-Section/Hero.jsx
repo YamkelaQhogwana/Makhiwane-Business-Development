@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Hero.css"
+import { useNavigate } from 'react-router-dom'
 
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <main id='landing-main'>
        <h1>MAKHIWANE 
@@ -12,13 +14,13 @@ const Hero = () => {
        <p>Doing business, particularly within the modern economy is a particularly challenging feat. Owners must be prepared to deal with complex employee relations,  detailed logistics models and digital marketing channels. Business Development is therefore an imperative aspect of entrepreneurship, and with over 15 years of experience, Makhiwane offers a number of services including revenue and profit tracking, payroll consulting and supply chain evaluation designed to assist you optimize your business functions and achieve exponential growth. </p>
 
        <section className="user-actions">
-        <button>
+        <button onClick={()=> navigate("./services")}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
             </svg>
             <p>SERVICES</p>
         </button>
-        <button>BOOK A CONSULT</button>
+        <button><a href="https://makhiwane-business-development.vercel.app/#contact-us"></a></button>
        </section>
 
        
