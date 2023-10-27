@@ -46,7 +46,7 @@ const Footer = () => {
         <h3>MAKHIWANE</h3>
         <p>Diversity leads to innovation culture</p>
         </section>
-        <button onClick={()=>useNavigate("./services")}>GET STARTED</button>
+        <button onClick={()=>navigate("./services")}>GET STARTED</button>
         <Socials></Socials>
       </article>
       </div>
