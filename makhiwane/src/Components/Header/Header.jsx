@@ -2,9 +2,21 @@ import React, { useState } from 'react'
 import MobileMenu from './Mobile-Menu'
 import { NavLink, useNavigate } from 'react-router-dom';
 import Socials from '../Socials-Bar/Socials';
+import MenuMobile from './Menu';
+import { useEffect } from 'react';
 const Header = () => {
-    const [mobileOpen,setMobileOpen] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const navigate = useNavigate()
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
    <header>
     <section className="logo-and-icon">
@@ -31,15 +43,17 @@ const Header = () => {
       
       <Socials></Socials>
 
-    <section className="mobile-menu" onClick={()=>{
+   {/*  <section className="mobile-menu" onClick={()=>{
         setMobileOpen(true)
     }}>
         <div></div>
         <div></div>
         <div></div>
-    </section>
+    </section> */}
 
-    {mobileOpen && <MobileMenu mobileOpen={mobileOpen} setMobileOpen={setMobileOpen}></MobileMenu>}
+   
+   {windowWidth <= 800 && <MenuMobile></MenuMobile>}
+
    </header>
   )
 }
