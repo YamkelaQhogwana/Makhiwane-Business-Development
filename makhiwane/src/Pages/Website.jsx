@@ -43,11 +43,12 @@ const Website = () => {
       // Scroll to the Contact Us section
       galleryRef.current.scrollIntoView({ behavior: 'smooth' });
     } 
-  }, [location]);
-  if (location.hash === '#faqs') {
+    if (location.hash === '#faqs') {
     // Scroll to the Contact Us section
     faqsRef.current.scrollIntoView({ behavior: 'smooth' });
   } 
+  }, [location]);
+  
 
   const scrollToContactUs = () => {
     contactUsRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -68,7 +69,7 @@ const Website = () => {
         <MissionArticle id="#vision-mission"></MissionArticle>
       </div>
       <div ref={faqsRef}>
-        <FAQs id="#faqs"></FAQs>
+        <FAQs id="#faqs" ref={faqsRef}></FAQs>
       </div>
       <div ref={contactUsRef}>
         <ContactUs id="contact-us"></ContactUs>
