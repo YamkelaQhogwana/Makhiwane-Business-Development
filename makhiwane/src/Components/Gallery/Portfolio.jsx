@@ -8,7 +8,7 @@ const Portfolio = () => {
 
         <section className="gallery">
             <section className="video-container">
-                <video src="./img/gallery-1.mp4" loop controls></video>
+                <video src="./img/gallery-1.mp4" loop autoPlay controls></video>
             </section>
             <article className="marketing">
                 <h3>MARKETING SEMINAR</h3>
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <img src="./img/gallery-3.jpg" alt="" />
             </section>
             <section className="video-container">
-                <video src="./img/gallery-4.mp4" loop controls></video>
+                <video src="./img/gallery-4.mp4" autoPlay loop controls></video>
             </section>
             <article className="marketing">
                 <h3>HUMAN CAPITAL TRAINING</h3>
@@ -36,3 +36,5 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
