@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Mission-Article.css"
+import { useNavigate } from 'react-router-dom'
 const MissionArticle = () => {
+  const navigate = useNavigate()
   return (
+
     <section id="mission-article">
        <article className="who-we-are">
           <div className="orange-bar"></div>
@@ -21,7 +24,7 @@ const MissionArticle = () => {
                        Our objective is to provide innovation hubs and a best practices center of excellence</p>
                 </section>
 
-                <button>GET STARTED</button>
+                <button onClick={()=>useNavigate("./services")}>GET STARTED</button>
             </article>
           </section>
         </article>  

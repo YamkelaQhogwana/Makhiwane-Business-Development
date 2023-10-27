@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import Socials from '../Socials-Bar/Socials'
+import { useNavigate } from 'react-router-dom'
+const navigate = useNavigate();
 const Footer = () => {
   return (
     <section id="footer">
@@ -43,7 +45,7 @@ const Footer = () => {
         <h3>MAKHIWANE</h3>
         <p>Diversity leads to innovation culture</p>
         </section>
-        <button>GET STARTED</button>
+        <button onClick={()=>useNavigate("./services")}>GET STARTED</button>
         <Socials></Socials>
       </article>
       </div>
