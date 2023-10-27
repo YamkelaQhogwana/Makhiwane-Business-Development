@@ -15,7 +15,7 @@ const Portfolio = () => {
             <article className="marketing">
                 <h3>MARKETING SEMINAR</h3>
                 <p>Marketing Seminars assist your organization as a whole gain an intricate understanding of the importance of an excellent public image</p>
-                <a href="#" onClick={()=>navigate("./services")}>GET STARTED</a>
+                <a href="#" onClick={()=>navigate("/services#services-hr")}>GET STARTED</a>
             </article>
             <section className="image-container">
                 <img src="./img/gallery-2.jpg" alt="" />
@@ -29,7 +29,7 @@ const Portfolio = () => {
             <article className="marketing">
                 <h3>HUMAN CAPITAL TRAINING</h3>
                 <p>Our consultants train your staff across departments in order to assist improve organizational culture</p>
-                <a href="#" style={{backgroundColor : "lightseagreen"}} onClick={()=>navigate("./services")}>GET STARTED</a>
+                <a href="#" style={{backgroundColor : "lightseagreen"}} onClick={()=>navigate("/services#services-hr")}>GET STARTED</a>
             </article>
              
         </section>

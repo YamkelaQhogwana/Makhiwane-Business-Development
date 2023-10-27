@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import Socials from '../Socials-Bar/Socials'
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -11,33 +12,33 @@ const Footer = () => {
       <article className="sitemap">
         <h3>SITEMAP</h3>
         <ul className="sitemap-links">
-            <ul><li><a href="">SERVICES</a></li></ul>
-            <ul><li><a href="GALLERY">GALLERY</a></li></ul>
-            <ul><li><a href="">ABOUT US</a></li></ul>
-            <ul><li><a href="">VISION AND MISSION</a></li></ul>
-            <ul><li><a href="">CONTACT US</a></li></ul>
+            <li><Link to="/services#services-hr">SERVICES</Link></li>
+            <li><Link to="/#gallery">GALLERY</Link></li>
+            <li><Link to="/#about-us">ABOUT US</Link></li>
+            <li><Link to="/#vision-mission">VISION AND MISSION</Link></li>
+            <li><Link to="/#contact-us">CONTACT US</Link></li>
         </ul>
       </article>
 
       <article className="footer-services">
         <h3>SERVICES</h3>
         <ul className="footer-services-links">
-            <ul><li><a href="">HR TRAINING</a></li></ul>
-            <ul><li><a href="GALLERY">BUSINESS SEMINARS</a></li></ul>
-            <ul><li><a href="">FINANCIAL PLANNING</a></li></ul>
-            <ul><li><a href="">MARKETING STRATEGY</a></li></ul>
-            <ul><li><a href="">ONLINE PRESENCE</a></li></ul>
+           <li><Link to="/services#services-hr">HUMAN RESOURCES</Link></li>
+           <li><Link to="/services#services-marketing">MARKETING</Link></li>
+           <li><Link to="/services#services-analytics">ANALYTICS</Link></li>
+           <li><Link to="/services#services-logistics">LOGISTICS</Link></li>
+           <li><Link to="/services#services-packages">PACKAGES</Link></li>
         </ul>
       </article>  
 
       <article className="footer-faqs">
         <h3>FAQS</h3>
         <ul className="footer-services-links">
-            <ul><li><a href="">MARKETING IMPORTANCE</a></li></ul>
-            <ul><li><a href="GALLERY">BUSINESS STRATEGY</a></li></ul>
-            <ul><li><a href="">BUSINESS CHALLENGES</a></li></ul>
-            <ul><li><a href="">HR CHALLENGES</a></li></ul>
-            <ul><li><a href="">BUSINESS DEVELOPMENT</a></li></ul>
+           <li><a href="#faqs">MARKETING IMPORTANCE</a></li>
+           <li><a href="#faqs">BUSINESS STRATEGY</a></li>
+           <li><a href="#faqs">BUSINESS CHALLENGES</a></li>
+           <li><a href="#faqs">HR CHALLENGES</a></li>
+           <li><a href="#faqs">BUSINESS DEVELOPMENT</a></li>
         </ul>
       </article>  
 
@@ -46,7 +47,7 @@ const Footer = () => {
         <h3>MAKHIWANE</h3>
         <p>Diversity leads to innovation culture</p>
         </section>
-        <button onClick={()=>navigate("./services")}>GET STARTED</button>
+        <Link  to= "/services#services-hr"><button style={{width : "100%"}}>GET STARTED</button></Link>
         <Socials></Socials>
       </article>
       </div>

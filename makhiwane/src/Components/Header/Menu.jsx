@@ -8,6 +8,7 @@ import {
   IconArrowsLeftRight,
 } from '@tabler/icons-react';
 import Socials from '../Socials-Bar/Socials';
+import { Link } from 'react-router-dom';
 
 const  MenuMobile = () => {
   return (
@@ -21,29 +22,35 @@ const  MenuMobile = () => {
       </Menu.Target>
 
       <Menu.Dropdown>
-        <Menu.Label>Sitemap</Menu.Label>
-        <Menu.Item leftSection={<IconSettings style={{ width: rem(14), height: rem(14) }} />}>
-         Services
-        </Menu.Item>
-        <Menu.Item leftSection={<IconMessageCircle style={{ width: rem(14), height: rem(14) }} />}>
-          Contact Us
-        </Menu.Item>
-        <Menu.Item leftSection={<IconPhoto style={{ width: rem(14), height: rem(14) }} />}>
-          Gallery
-        </Menu.Item>
-        <Menu.Item
-          leftSection={<IconSearch style={{ width: rem(14), height: rem(14) }} />}
-        >
-         About Us
-        </Menu.Item>
+  <Menu.Label>Sitemap</Menu.Label>
+  <Link to="/services">
+    <Menu.Item leftSection={<IconSettings style={{ width: rem(14), height: rem(14) }} />}>
+      Services
+    </Menu.Item>
+  </Link>
+  <Link to="/#contact-us"> {/* Assuming "contact-us" is an ID within your page */}
+    <Menu.Item leftSection={<IconMessageCircle style={{ width: rem(14), height: rem(14) }} />}>
+      Contact Us
+    </Menu.Item>
+  </Link>
+  <Link to="/#gallery">
+    <Menu.Item leftSection={<IconPhoto style={{ width: rem(14), height: rem(14) }} />}>
+      Gallery
+    </Menu.Item>
+  </Link>
+  <Link to="/#about-us">
+    <Menu.Item leftSection={<IconSearch style={{ width: rem(14), height: rem(14) }} />}>
+      About Us
+    </Menu.Item>
+  </Link>
 
-        <Menu.Divider />
+  <Menu.Divider />
 
-        <Menu.Label>Get In Touch</Menu.Label>
-        <Menu.Item>
-            <Socials></Socials>
-        </Menu.Item>
-      </Menu.Dropdown>
+  <Menu.Label>Get In Touch</Menu.Label>
+  <Menu.Item>
+    <Socials></Socials>
+  </Menu.Item>
+</Menu.Dropdown>
     </Menu>
   );
 }

@@ -4,6 +4,7 @@ import Layout from "./Layout/Layout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
 import ServicesPage from "./Pages/Services/ServicesPage";
+import { Switch } from "@mantine/core";
 function App() {
   return (
   <>

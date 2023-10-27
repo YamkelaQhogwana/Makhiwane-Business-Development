@@ -51,7 +51,7 @@ const Services = () => {
       })}
     </Carousel>
       
-      <button onClick={()=> navigate("./services", {replace : true})}>SEE ALL SERVICES →</button>
+      <button onClick={()=> navigate("/services#services-hr", {replace : true})}>SEE ALL SERVICES →</button>
     </section>
 
        

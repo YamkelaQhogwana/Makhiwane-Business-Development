@@ -2,7 +2,7 @@ import React from 'react'
 import "./Gradient.css"
 const Gradient = () => {
   return (
-    <div className="gradient"></div>
+    <div style={{width : "100%"}} className="gradient"></div>
   )
 }
 

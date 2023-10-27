@@ -34,10 +34,10 @@ const Header = () => {
                 <a onClick={()=>navigate("./services")}>SERVICES</a>
             </li>
             <li>
-                <Link to="/#contact-us"><a href=''>CONTACT</a></Link>
+                <Link to="/#contact-us">CONTACT</Link>
             </li>
             <li>
-             <a href='https://makhiwane-business-development.vercel.app/#about'>ABOUT</a>
+               <Link to="/#about-us">ABOUT US</Link>
             </li>
         </ul>
     </section>
