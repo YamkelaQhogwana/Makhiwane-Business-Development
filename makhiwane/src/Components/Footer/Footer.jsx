@@ -2,8 +2,9 @@ import React from 'react'
 import "./Footer.css"
 import Socials from '../Socials-Bar/Socials'
 import { useNavigate } from 'react-router-dom'
-const navigate = useNavigate();
+
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <section id="footer">
         <div className="footer-content-container">
