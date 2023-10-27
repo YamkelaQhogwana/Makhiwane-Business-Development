@@ -36,7 +36,7 @@ const Header = () => {
                 <a href='https://makhiwane-business-development.vercel.app/#contact-us'>CONTACT</a>
             </li>
             <li>
-                <NavLink to="https://makhiwane-business-development.vercel.app/#about"><a href='https://makhiwane-business-development.vercel.app/#about'>ABOUT</a></NavLink>
+             <a href='https://makhiwane-business-development.vercel.app/#about'>ABOUT</a>
             </li>
         </ul>
     </section>
