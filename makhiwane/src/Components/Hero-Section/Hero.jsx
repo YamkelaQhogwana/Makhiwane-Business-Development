@@ -20,7 +20,7 @@ const Hero = () => {
             </svg>
             <p>SERVICES</p>
         </button>
-        <button><a href="https://makhiwane-business-development.vercel.app/#contact-us"></a></button>
+        <button><a href="https://makhiwane-business-development.vercel.app/#contact-us">BOOK A CONSULTATION</a></button>
        </section>
 
        
