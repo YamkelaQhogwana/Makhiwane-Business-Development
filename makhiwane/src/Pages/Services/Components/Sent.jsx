@@ -17,7 +17,7 @@ const Sent = ({name, surname, companyName, email, country, city, address, postal
   },[updateCounter])
   const  submitData = async()=>{
   try {
-      const emailResponse =  await axios.post('https://makhiwane-business-development-backend.vercel.app/send-email', {
+      const emailResponse =  await axios.post('https://makhiwane-server-backend.onrender.com/send-email', {
         recipient_email: userInformation.email,
         userInformation : userInformation,
         cartItems : cartItems,
