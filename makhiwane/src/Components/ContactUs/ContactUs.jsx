@@ -86,7 +86,7 @@ else{
     <section id="contact-us">
        <section className="get-in-touch">
         <section className="get-in-touch-heading">
-            <h3>GET IN TOUCH</h3>
+            <h3>GET IN TOUCH WITH MAKHIWANE</h3>
             <div className="orange-divider"></div>
         </section>
 
@@ -107,7 +107,7 @@ else{
   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
 </svg>
 
-  <a href="mailto:xola.qhogwana@bosch.com">Xola.Qhogwana@gmail.com</a>
+  <a href="mailto:xola.qhogwana@bosch.com">makhiwanebusinessdevelopment@gmail.com</a>
 </article>
 
                </section>  

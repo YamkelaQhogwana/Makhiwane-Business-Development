@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <section id="mission">
         <p>THE VALUES THAT DEFINE US</p>
-        <h3>Our Mission Statement</h3>
+        <h3>Makhiwane's Mission Statement</h3>
 
         <section className="mission-statement-container">
             {quotesArray.map((quote)=>{

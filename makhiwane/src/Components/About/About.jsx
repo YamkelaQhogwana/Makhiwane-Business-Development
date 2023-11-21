@@ -5,12 +5,12 @@ const About = () => {
     <section id="about">
         <article className="who-we-are">
           <div className="orange-bar"></div>
-          <p>WHO WE ARE</p>  
+          <p>ALL ABOUT MAKHIWANE</p>  
           </article>
 
           <section className="about-us-main">
             <section className="founders-image">
-              <img src="./img/founder.jpg" alt="" />  
+              <img src="./img/founder.jpg" alt="Makhiwane Business Development Founder" />  
             </section>
             <article className="about-us-article">
                 <h3>FOUNDERS STORY</h3>

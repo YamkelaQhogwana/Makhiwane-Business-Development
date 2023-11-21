@@ -11,7 +11,7 @@ const Hero = () => {
        ----CUSTOMISED BUSINESS 
      DEVELOPMENT SOLUTIONS </h1>
 
-       <p>Doing business, particularly within the modern economy is a particularly challenging feat. Owners must be prepared to deal with complex employee relations,  detailed logistics models and digital marketing channels. Business Development is therefore an imperative aspect of entrepreneurship, and with over 15 years of experience, Makhiwane offers a number of services including revenue and profit tracking, payroll consulting and supply chain evaluation designed to assist you optimize your business functions and achieve exponential growth. </p>
+       <p>At Makhiwane we understand that doing business, particularly within the modern economy is a particularly challenging feat. Owners must be prepared to deal with complex employee relations,  detailed logistics models and digital marketing channels. Business Development is therefore an imperative aspect of entrepreneurship, and with over 15 years of experience, Makhiwane Business Development offers a number of services including revenue and profit tracking, payroll consulting and supply chain evaluation designed to assist you optimize your business functions and achieve exponential growth. </p>
 
        <section className="user-actions">
         <button onClick={()=> navigate("/services#services-hr")}>

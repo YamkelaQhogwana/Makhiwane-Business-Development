@@ -4,7 +4,7 @@ export const businessDevelopmentSolutions = [
     name: "HR Consultations",
     category: "HR",
     priceZAR: 1500,
-    description: "Comprehensive HR support for job roles, employee relations, disputes, and labor laws.",
+    description: "Makhiwane will provide comprehensive HR support for job roles, employee relations, disputes, and labor laws.",
     image: "./img/hr-1-min.jpg"
   },
   {
@@ -12,7 +12,7 @@ export const businessDevelopmentSolutions = [
     name: "Recruitment Assistance",
     category: "HR",
     priceZAR: 1200,
-    description: "Professional guidance for identifying needs, job roles, and recruitment strategies.",
+    description: "Makhiwane offers a professional guidance for identifying needs, job roles, and recruitment strategies.",
     image: "./img/hr-2-min.jpg"
   },
   {
@@ -28,7 +28,7 @@ export const businessDevelopmentSolutions = [
     name: "Digital Marketing Setup",
     category: "MARKETING",
     priceZAR: 1600,
-    description: "Digitize your business with SEO, social media, and email marketing.",
+    description: "Makhiwane offers services that will digitize your business with SEO, social media, and email marketing.",
     image: "./img/marketing-2-min.jpg"
   },
   {
@@ -52,14 +52,14 @@ export const businessDevelopmentSolutions = [
     name: "Supplier Negotiation",
     category: "LOGISTICS",
     priceZAR: 800,
-    description: "Negotiate favorable terms, optimize procurement, and enhance supplier relationships.",
+    description: "Makhiwane offers a suite that will assist your business negotiate favorable terms, optimize procurement, and enhance supplier relationships.",
     image: "./img/logistics-1-min.jpg"
   },
   {
     id: 8,
     name: "Supplier Procurement and Contractual Design",
     category: "LOGISTICS",
-    description: "Select and procure suppliers aligned with business goals and optimized contracts.",
+    description: "With assistance from Makhiwane, select and procure suppliers aligned with business goals and optimized contracts.",
     image: "./img/logistics-2-min.jpg"
   },
 ];
