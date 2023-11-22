@@ -7,7 +7,7 @@ export const faqs = [
     {
         id: 2,
         question: "ARE THE SERVICES OFFERED BY MAKHIWANE APPLICABLE TO A MULTI-NATIONAL ORGANIZATION",
-        answer: "The consultants at Makhiwane boast an intricate understanding of the manner in which multi-national organizations work, having studies them extensively and worked with them for over a decade. As such their solutions will scale with your organization and may go on to cater to a global audience"
+        answer: "The consultants at Makhiwane boast an intricate understanding of the manner in which multi-national organizations work, having studied them extensively and worked with them for over a decade. As such their solutions will scale with your organization and may go on to cater to a global audience"
     },
     {
         id: 3,
