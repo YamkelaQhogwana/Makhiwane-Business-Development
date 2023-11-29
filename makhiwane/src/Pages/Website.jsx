@@ -12,6 +12,7 @@ import ContactUs from "../Components/ContactUs/ContactUs.jsx"
 import { FaSpinner } from 'react-icons/fa'
 import { Route } from 'react-router-dom'
 import { useRef, useEffect } from 'react'
+import Meaning from '../Components/Meaning/Meaning.jsx'
 
 const isLoading = () =>{
   
@@ -71,6 +72,9 @@ const Website = () => {
       <Values></Values>
       <div ref={visionRef}>
         <MissionArticle id="#vision-mission" ref={visionRef}></MissionArticle>
+      </div>
+      <div>
+        <Meaning></Meaning>
       </div>
       <div ref={faqsRef}>
         <FAQs id="#faqs" ref={faqsRef}></FAQs>
