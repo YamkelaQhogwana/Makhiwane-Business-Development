@@ -8,7 +8,7 @@ const MobileMenu = ({mobileOpen, setMobileOpen}) => {
         <p>makhiwane</p>
        </div>
 
-       <ul>
+       <ul aria-label="mobile-menu navigation">
         <li><a href="">Services</a></li>
         <li><a href="">Gallery</a></li>
         <li><a href="">Mission Statement</a></li>

@@ -75,6 +75,10 @@ header {
   position: relative;
 }
 
+header h1 {
+  font-size: medium;
+  font-weight: lighter;
+}
 .logo {
   font-size: large;
   font-weight: bold;

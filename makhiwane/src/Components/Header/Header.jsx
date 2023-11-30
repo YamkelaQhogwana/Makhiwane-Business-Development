@@ -21,12 +21,12 @@ const Header = () => {
   return (
    <header>
     <section className="logo-and-icon">
-        <div className="icon" onClick={()=>navigate("./")}></div>
-        <p>makhiwane.</p>
+        <img src="./img/makhiwane-logo.png" alt="Makhiwane Business Development Logo" style={{height : "30px"}} />
+        <h1>Makhiwane</h1>
     </section>
 
-    <section className="navigation">
-        <ul>
+    <section className="navigation" >
+        <ul aria-label='makhiwane desktop navigation'>
             <li>
                 <a href="" onClick={()=>navigate("./")}>HOME</a>
             </li>
@@ -44,15 +44,6 @@ const Header = () => {
       
       <Socials></Socials>
 
-   {/*  <section className="mobile-menu" onClick={()=>{
-        setMobileOpen(true)
-    }}>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section> */}
-
-   
    {windowWidth <= 800 && <MenuMobile></MenuMobile>}
 
    </header>

@@ -11,7 +11,7 @@ const Meaning = () => {
           <p>BLOG: BEHIND OUR NAME</p>  
 
           <section className="mission-article-content">
-            <aside className="mission-article-image"></aside>
+            <aside className="meaning-article-image"></aside>
             <article className="mission-article-writing-and-button">
                 <section className="">
                     <h3>MAKHIWANE : MEANING AND ORIGIN</h3>
