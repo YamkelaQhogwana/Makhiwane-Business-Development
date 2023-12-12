@@ -19,7 +19,6 @@ const PersonalDetails = ({userInformation, setUserInformation, nextStep}) => {
         companyName : (value)=> validateString(value),
         email : (value)=>validateEmail(value)
        }
-
         
     })
 
