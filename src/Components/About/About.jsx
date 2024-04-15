@@ -17,6 +17,15 @@ const About = () => {
                 <p>Xola Qhogwana, the visionary entrepreneur behind Makhiwane Business Development, is currently on a dedicated academic journey, pursuing a Ph.D. in Business Administration at the University of South Africa (UNISA). His passion for business innovation and entrepreneurship is underpinned by a solid foundation in engineering, with Xola initially earning a National Diploma in Mechanical Engineering from the prestigious Durban University of Technology (DUT). He holds a Master's in Business Leadership and Management, and, having earned two certificates in Operations and Business Management from DUT, he brings a wealth of knowledge and expertise to the business landscape. With over 15 years of invaluable experience in pivotal roles within various international corporations, Xola has honed his acumen for business strategy and development. However, his true calling lies in his unwavering commitment to empowering and uplifting small businesses, equipping them with the tools and knowledge needed to thrive from the ground up. Makhiwane Business Development embodies his dedication to fostering growth and success within the entrepreneurial landscape. </p>
             </article>
           </section>  
+          <section className="about-us-main">
+            <section className="founders-image">
+              <img src="./img/co-founder.jpg" alt="Makhiwane Business Development Founder" />  
+            </section>
+            <article className="about-us-article">
+                <h3>CO-FOUNDERS STORY</h3>
+                <p>Dr. Sibulelo Qhogwana, founder of Makhiwane Business Development, is a dynamic figure with over 25 years of experience in psychology, complemented by her role as a senior lecturer at the University of Johannesburg. As an academic, professional, and businesswoman, her journey encompasses a Bachelor's degree in Psychology cum laude from the University of the Free State, further elevated by Honors, Masters, and Doctorate degrees in Psychology from the University of South Africa. Registered as a clinical psychologist, her expertise infuses her entrepreneurial pursuits with a unique blend of psychological insight and business acumen. Dr. Qhogwana's visionary leadership navigates the complexities of business development, shaping both industry standards and individual growth trajectories. </p>
+            </article>
+          </section>  
     </section>
   )
 }
