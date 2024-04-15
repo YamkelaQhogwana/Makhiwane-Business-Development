@@ -7,7 +7,6 @@ const About = () => {
           <div className="orange-bar"></div>
           <p>ALL ABOUT MAKHIWANE</p>  
           </article>
-
           <section className="about-us-main">
             <section className="founders-image">
               <img src="./img/founder.jpg" alt="Makhiwane Business Development Founder" />  
@@ -23,7 +22,7 @@ const About = () => {
             </section>
             <article className="about-us-article">
                 <h3>CO-FOUNDERS STORY</h3>
-                <p>Dr. Sibulelo Qhogwana, founder of Makhiwane Business Development, is a dynamic figure with over 25 years of experience in psychology, complemented by her role as a senior lecturer at the University of Johannesburg. As an academic, professional, and businesswoman, her journey encompasses a Bachelor's degree in Psychology cum laude from the University of the Free State, further elevated by Honors, Masters, and Doctorate degrees in Psychology from the University of South Africa. Registered as a clinical psychologist, her expertise infuses her entrepreneurial pursuits with a unique blend of psychological insight and business acumen. Dr. Qhogwana's visionary leadership navigates the complexities of business development, shaping both industry standards and individual growth trajectories. </p>
+                <p>Dr. Sibulelo Qhogwana, founder of Makhiwane Business Development, is a dynamic figure with over 13 years of experience in psychology, complemented by her role as a senior lecturer at the University of Johannesburg. As an academic, professional, and businesswoman, her journey encompasses a Bachelor's degree in Psychology cum laude from the University of the Free State, further elevated by Honors, Masters, and Doctorate degrees in Psychology from the University of South Africa. Registered as a clinical psychologist, her expertise infuses her entrepreneurial pursuits with a unique blend of psychological insight and business acumen. Dr. Qhogwana's visionary leadership navigates the complexities of business development, shaping both industry standards and individual growth trajectories. </p>
             </article>
           </section>  
     </section>

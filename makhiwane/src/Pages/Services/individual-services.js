@@ -17,7 +17,7 @@ export const humanResourcesServices = [
   },
   {
     id: 3,
-    serviceName: 'Employee Benchmark',
+    serviceName: 'Employee Assist Programmes',
     serviceDescription: 'This service assists your organization identify areas of weaknesses with your employees and the manner in which they relate to one another, an in-accordance design as well as implement workshops, team building exercises and learning opportunities',
     serviceImage: './img/hr-3-min.jpg',
     servicePrice: 800, // Price in ZAR
